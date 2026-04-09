@@ -34,8 +34,8 @@ export default function Footer() {
                   link === 'Email'
                     ? 'mailto:pratikshaubale05@gmail.com'
                     : link === 'GitHub'
-                    ? 'https://github.com'
-                    : 'https://linkedin.com'
+                    ? 'https://github.com/Pratiksha3105'
+                    : 'https://www.linkedin.com/in/pratiksha-ubale-897b862a3/'
                 }
                 target={link !== 'Email' ? '_blank' : undefined}
                 className="text-sm text-slate-500 hover:text-white transition-colors cursor-hover"
@@ -52,7 +52,7 @@ export default function Footer() {
             className="text-slate-600 text-xs"
             style={{ fontFamily: 'var(--font-mono)' }}
           >
-            © {new Date().getFullYear()} Pratiksha Ubale. Built with Next.js & ❤️
+            © {new Date().getFullYear()} Pratiksha Ubale.❤️
           </p>
         </div>
       </div>

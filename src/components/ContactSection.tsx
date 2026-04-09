@@ -19,7 +19,7 @@ const contactLinks = [
   },
   {
     label: 'LinkedIn',
-    value: 'linkedin.com/in/pratikshaubale',
+    value: 'https://www.linkedin.com/in/pratiksha-ubale-897b862a3/',
     href: 'https://linkedin.com',
     color: '#0A66C2',
     icon: (
@@ -31,7 +31,7 @@ const contactLinks = [
   {
     label: 'GitHub',
     value: 'github.com/pratikshaubale',
-    href: 'https://github.com',
+    href: 'https://github.com/Pratiksha3105',
     color: '#f0f6fc',
     icon: (
       <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">

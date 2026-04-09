@@ -42,7 +42,7 @@ const skillCategories = [
 const techIcons = [
   { name: 'Python', color: '#3776AB', bg: 'rgba(55,118,171,0.15)' },
   { name: 'React', color: '#61DAFB', bg: 'rgba(97,218,251,0.1)' },
-  { name: 'TF', color: '#FF6F00', bg: 'rgba(255,111,0,0.1)' },
+  { name: 'C++', color: '#FF6F00', bg: 'rgba(255,111,0,0.1)' },
   { name: 'Node', color: '#339933', bg: 'rgba(51,153,51,0.1)' },
   { name: 'CV', color: '#5C3EE8', bg: 'rgba(92,62,232,0.1)' },
   { name: 'Next', color: '#ffffff', bg: 'rgba(255,255,255,0.08)' },
@@ -186,7 +186,7 @@ export default function SkillsSection() {
             // Additional tools & platforms
           </p>
           <div className="flex flex-wrap gap-3">
-            {['PowerBI', 'Tableau', 'Jupyter', 'VSCode', 'Git', 'Linux', 'Canva', 'Excel', 'Postman', 'XAMPP', 'Redis', 'Docker'].map((tool) => (
+            {['PowerBI', 'Tableau', 'Jupyter', 'VSCode', 'Git', 'Linux', 'Canva', 'Excel', 'XAMPP'].map((tool) => (
               <motion.span
                 key={tool}
                 className="px-3 py-1.5 rounded-lg text-xs text-slate-400"
